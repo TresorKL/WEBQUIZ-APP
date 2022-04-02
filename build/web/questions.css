@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+.container {
+  background: rgb(207, 207, 207);
+  margin: auto;
+  margin-top: 8vw;
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+  height: 400px;
+  width: 40%;
+}
+
+form {
+  color: black;
+  margin: auto;
+  position: relative;
+  left: 10vw;
+  top: 7vw;
+}
+
+label {
+  font-size: 50px;
+}
+input {
+  margin-top: 20px;
+  height: 40px;
+  width: 40%;
+  position: relative;
+}
+
+button {
+  margin-top: 20px;
+  height: 60px;
+  width: 30%;
+  color: white;
+  background: rgb(61, 60, 60);
+  border-width: 0px;
+}
+
+button:hover {
+  font-size: large;
+  background: black;
+}

@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+.container {
+  background: rgb(41, 41, 41);
+  margin: auto;
+  display: flex;
+  border-radius: 16px;
+  height: 400px;
+  width: 30vw;
+}
+
+input {
+  flex-direction: column;
+  margin-bottom: 3vw;
+  margin-top: 2vw;
+  height: 40px;
+  width: 18vw;
+}
+
+label {
+  color: white;
+}
+
+form {
+  margin: auto;
+}
+
+button {
+  transform: translateX(50px);
+  height: 45px;
+  width: 10vw;
+  color: white;
+  background: rgb(60, 192, 60);
+  border-width: 0px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+button:hover {
+  background: rgb(0, 105, 0);
+}
+
+.login {
+    
+  margin-top: 3vw;
+  transform: translateX(510px);
+}

@@ -1,0 +1,71 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+.container {
+  background: rgb(61, 73, 238);
+  margin: auto;
+  margin-top: 8vw;
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+  height: 400px;
+  width: 40%;
+}
+
+h3 {
+  position: relative;
+  left: 9vw;
+  top: 5vw;
+  font-size: 45px;
+}
+
+button {
+  position: relative;
+  top: 8vw;
+  left: 8vw;
+  height: 60px;
+  width: 30%;
+  color: rgb(255, 255, 255);
+  background: rgb(31, 30, 30);
+  border-width: 0px;
+}
+.search {
+  position: relative;
+  top: 8vw;
+  left: 8vw;
+  height: 60px;
+  width: 30%;
+  color: rgb(255, 255, 255);
+  background: rgb(31, 30, 30);
+  border-width: 0px;
+}
+
+.search:hover {
+  font-size: large;
+  background: black;
+}
+.logout {
+  position: relative;
+  top: 8vw;
+  left: 8vw;
+  height: 60px;
+  width: 30%;
+  color: rgb(255, 255, 255);
+  background: rgb(245, 55, 55);
+  border-width: 0px;
+}
+
+.logout:hover {
+  font-size: large;
+  background: rgb(163, 0, 0);
+}
+input {
+  position: relative;
+  top: 5vw;
+  left: 6vw;
+  height: 35px;
+  width: 70%;
+}
